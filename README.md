@@ -3,16 +3,6 @@
 A React + Tailwind CSS web app that shows how likely waterlogging is in Kolkata right now.
 It uses live weather data (rain, humidity, forecast), the current season and neighbourhood vulnerability.
 
-## Run it
-
-You need Node.js 18 or newer.
-
-```bash
-npm install
-npm run dev        # opens at http://localhost:5173
-npm run build      # production build in /dist
-npm run preview    # test the production build
-```
 
 ## Features
 
@@ -25,9 +15,6 @@ npm run preview    # test the production build
 - Causes of waterlogging and safety tips
 - Responsive, keyboard friendly, respects reduced-motion settings
 
-## How the risk score works (for your viva)
-
-Score = sum of six factors, capped at 100. See `assess()` in `src/lib/weather.js`.
 
 | Factor | Max points | Input |
 | --- | --- | --- |
@@ -52,9 +39,6 @@ src/
   components/           Hero, Forecast, Hotspots, Seasons, Causes, ...
 ```
 
-## Deploy for free
-
-Push to GitHub, then import the repo in Vercel or Netlify. Build command `npm run build`, output folder `dist`.
 
 ## Ideas to extend it
 
