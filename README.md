@@ -1,4 +1,4 @@
-# Jol Jomechhe: Kolkata Waterlogging Watch
+# Jolll management : Kolkata Waterlogging Watch
 
 A React + Tailwind CSS web app that shows how likely waterlogging is in Kolkata right now.
 It uses live weather data (rain, humidity, forecast), the current season and neighbourhood vulnerability.
